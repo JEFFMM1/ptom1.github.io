@@ -455,15 +455,15 @@ if(window.TLT){throw"Attempting to recreate TLT. Library may be included more th
 					triggers: [
 						{
 							event: "click",
-                            fullDOMCapture: true
+                           // fullDOMCapture: true
 						},
 						{
 							event: "change",
-                            fullDOMCapture: true
+                           // fullDOMCapture: true
 						},
 						{
 							event: "load",
-                            fullDOMCapture: true
+                           // fullDOMCapture: true
 						}
 					]
 				},
